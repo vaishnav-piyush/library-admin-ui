@@ -1,0 +1,23 @@
+<div>
+  <h3>{{ pageTitle }}</h3>
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>ISBN</th>
+        <th>Title</th>
+        <th>Author</th>
+        <th></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor='let book of availableBooks'>
+        <td></td>
+        <td>{{book.isbn}}</td>
+        <td>{{book.title}}</td>
+        <td>{{book.author}}</td>
+        <td><button class="btn btn-default btn-sm">Issue</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
