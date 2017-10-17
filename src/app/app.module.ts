@@ -7,17 +7,22 @@ import { AppRoutes } from "./app.routing";
 import { BookService } from "./books/book.service";
 import { AvailableBooksComponent } from "./books/available-books.component";
 import { IssuedBooksComponent } from "./books/issued-books.component";
-
+import { UserFormComponent } from "./books/user-form.component";
+import { FormsModule } from "@angular/forms";
+import { NewBookComponent } from "./books/new-book.component";
 @NgModule({
   declarations: [
     AppComponent,
     AvailableBooksComponent, 
-    IssuedBooksComponent
+    IssuedBooksComponent, 
+    UserFormComponent,
+    NewBookComponent
   ],
   imports: [
     BrowserModule, 
     HttpClientModule,
-    AppRoutes
+    AppRoutes, 
+    FormsModule
   ],
   providers: [
     BookService

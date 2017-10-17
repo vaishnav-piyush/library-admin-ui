@@ -1,9 +1,10 @@
-export interface Book {
-    isbn: string, 
-    title: string, 
-    author: string, 
-    shortDesc: string,
-    description: string,
-    issued: boolean, 
-    imageUrl: string
+export class Book {
+    id: string;
+    title: string;
+    author: string;
+    description: string;
+    issueStatus: string; 
+    issuedTo: string;
+    addedDate: Date;
+    updatedDate: Date;
 }

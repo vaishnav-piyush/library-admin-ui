@@ -1,65 +1,12 @@
 [
-    {   
-        "isbn": "12340", 
-        "title": "Da Vinci Code", 
-        "author": "Brown, Dan", 
-        "shortDesc": "", 
-        "description": "", 
-        "issued": false, 
-        "imageUrl":""
-    }, 
-    {   
-        "isbn": "12341", 
-        "title": "Harry Potter and the Deathly Hallows", 
-        "author": "Rowling, J.K.", 
-        "shortDesc": "", 
-        "description": "", 
-        "issued": true, 
-        "imageUrl":""
-    }, 
-    {   
-        "isbn": "12342", 
-        "title": "Angels and Demons", 
-        "author": "Brown, Dan", 
-        "shortDesc": "", 
-        "description": "", 
-        "issued": false, 
-        "imageUrl":""
-    }, 
-    {   
-        "isbn": "12343", 
-        "title": "Harry Potter and the Order of the Phoenix", 
-        "author": "Rowling, J.K.", 
-        "shortDesc": "", 
-        "description": "", 
-        "issued": false, 
-        "imageUrl":""
-    },
-    {   
-        "isbn": "12344", 
-        "title": "Fifty Shades of Grey", 
-        "author": "James, E. L.", 
-        "shortDesc": "", 
-        "description": "", 
-        "issued": false, 
-        "imageUrl":""
-    },
-    {   
-        "isbn": "12345", 
-        "title": "Twilight", 
-        "author": "Meyer, Stephenie", 
-        "shortDesc": "", 
-        "description": "", 
-        "issued": true, 
-        "imageUrl":""
-    },
-    {   
-        "isbn": "12346", 
-        "title": "Girl with the Dragon Tattoo", 
-        "author": "Larsson, Stieg", 
-        "shortDesc": "", 
-        "description": "", 
-        "issued": true, 
-        "imageUrl":""
-    }    
+    { 
+        "_id" : "59dca04e1046555723e739b3", 
+        "title" : "T3", 
+        "author" : "Prasanna", 
+        "description" : "D3", 
+        "issueStatus" : "AVAILABLE", 
+        "issuedTo" : "", 
+        "addedDate" : "2017-10-10T10:26:17.897Z",
+        "updatedDate" : "2017-10-10T10:26:17.897Z"
+    }
 ]
